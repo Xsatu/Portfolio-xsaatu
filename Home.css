@@ -1,0 +1,76 @@
+nav {
+  background-color: #05daff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropbtn {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #05daff;
+  color: black;
+  padding: 1px;
+  font-size: 20px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #05daff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #6c757d44;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #05daff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #05daff;
+}
+
+.jumbotron {
+  padding-top: 3rem;
+  background-color: #a2d9ff;
+}
+
+#projects {
+  background-color: #a2d9ff;
+  text-align: center;
+}
+
+#aabout {
+  text-decoration: none;
+}
+
+#aabout:hover {
+  color: white;
+}
+
+h2 {
+  padding-bottom: 1rem;
+}
+
+#afooter {
+  text-decoration: none;
+}
+
+#afooter:hover {
+  color: white;
+}
